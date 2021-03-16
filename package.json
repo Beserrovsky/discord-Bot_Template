@@ -1,0 +1,25 @@
+{
+  "name": "fujiwarabot",
+  "version": "1.0.0",
+  "description": "just a discord bot rework, coming from python",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "node build/index.js",
+    "build": "tsc -p tsconfig.json && npm start",
+    "watch": "tsc -p tsconfig.json -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Felipe Beserra",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^14.14.35",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "inversify": "^5.0.5",
+    "reflect-metadata": "^0.1.13",
+    "typescript": "^4.2.3"
+  },
+  "devDependencies": {
+    "ts-node": "^9.1.1"
+  }
+}
